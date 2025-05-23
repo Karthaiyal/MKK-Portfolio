@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Karthikeyan-Portfolio</title>
+  <style>
+body {
+  font-family: Arial, sans-serif;
+  margin-left: 300px;
+  padding: 0px;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  background: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.container {
+  display: block;
+  padding: 10px;
+  background-color: #f4f4f4;
+}
+
+.cards, #projects, #language-personality, #contact { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding-top: 20px;
+}
+
+.card { 
+  background-color: whitesmoke;
+  padding: 3px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 { 
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+}
+
+.card ul { 
+  list-style: none;
+}
+
+.sidebar {
+  height: 200vh;
+  width: 300px;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #333;
+  padding-top: 20px;
+}
+
+.profile-photo { 
+  width: 210px;
+  height: 220px;
+}
+
+#language-personality h3 { 
+  text-align: left;
+}
+
+footer { 
+  background-color: #333;
+  color: white;
+}
+
+@media(max-width:767px) { 
+  body { font-size: 14px;
+  }
+}
+
+@media(min-width:768px) and (max-width:1023px) { 
+  body { font-size: 16px;
+  }
+}
+
+@media(min-width:1024px)  { 
+  body { font-size: 18px;
+  }
+}
+
+.linkedin-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+}
+
+.linkedin-link:hover {
+  background-color: #005983;
+}
+
+.github-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+}
+
+.github-link:hover {
+  background-color: #333;
+}
+
+.gmail-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: rgba(255, 0, 0, 0.507);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s;
+}
+
+.gmail-link:hover {
+  background-color: rgba(255, 0, 0, 0.800);
+}
+
+.card:hover {
+  background-color: whitesmoke;
+  transition: background-color 0.3s;
+  transform: scale(1.10);
+}
+
+.card a { 
+  margin: 10px 0;
+}
+
+#contact h2 { 
+  text-align: center;
+  padding: 75px 75px 75px 75px;
+}
+
+#profile-photo:hover {
+  transform: scale(1.10);
+}
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <h1>KARTHIKEYAN MUTHUSAMY</h1>
+    <h2>Web Developer | Guest Lecturer</h2>
+    <nav>
+      <a href="#profile">Profile</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#faculty development programmes">Faculty Development Programmes</a>
+      <a href="#conferences">Conferences</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="profile">
+    <h2>Profile</h2>
+    <p>Conducting lectures and tutorials for undergraduate students and assisting with lecture research and preparation.
+    Then attending faculty meetings and working knowledge ofstatistics. Outstanding candidates are able to learn from 
+    seniorstaff as well as students and are constantly expanding theirsubject knowledge.</p>
+  </section>
+
+  <section id="about">
+    <h2>Work Experience</h2>
+    <p>Oct - 2016 to Nov 2020</p>
+    <p><b>Guest Lecturer</b> - Government College of Engineering, Salem</p>
+    <h4>Responsiblities:</h4>
+    <ul>
+        <li>Lecturer Teaching a requisite number of classes, providing guidance and providing academic support to Professors and 
+            other faculty numbers.</li>
+        <li>Recruiting, training and mentoring new TAs andother junior staff.</li>
+        <li>Providing demonstrations and supervising experiments and investigations.</li>
+        <li>Attending faculty and departmental meetings and voicing concerns on providing suggestions for improvement.</li>
+    </ul>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <div class="cards">
+        <div class="card">
+            <p>2015</p>
+            <p><b>M.E - Manufacturing Engineering</b></p>
+            <p>CGPA - 7.69</p>
+            <p>Erode Sengunthar Engineering College - Erode.</p>
+        </div>
+        <div class="card">
+            <p>2013</p>
+            <p><b>B.E - Bachelor of Engineering</b></p>
+            <p>CGPA - 7.17</p>
+            <p>The Kavery Engineering College - Salem.</p>
+        </div>
+        <div class="card">
+            <p>2009</p>
+            <p><b>HSC</b></p>
+            <p>GPA - 75.8%</p>
+            <p>Ideal Higher Secondary School - Anthiur.</p>
+        </div>
+        <div class="card">
+            <p>2007</p>
+            <p><b>SSLC</b></p>
+            <p>GPA - 78.2%</p>
+            <p>Velasamy Chettier Higher Secondary School - Omalur.</p>
+        </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+    <h2>Projects (College-Level)</h2>
+    </div>
+    <div class="card">
+      <h3>PG Project</h3>
+      <p>To Successful on <b>“Study and Analysis on Mechanical Behaviour of Palm Tree Leaf Fiber Reinforced Composites”.</b></p>
+    </div>
+    <div class="card">
+        <h3>UG Project</h3>
+        <p>To Successful on <b>“Modelling and Construction of Biogas Powerplant”.</b></p>
+      </div>
+  </section>
+
+  <section id="projects">
+    <div class="card">
+    <h2>Projects (Working-Level)</h2>
+    </div>
+    <div class="card">
+    <ul>
+      <li><a href="https://karthaiyal.github.io/Responsive-Landing-Page/">Project-1</a></li>
+      <li><a href="https://karthaiyal.github.io/Responsive-Card-Layout/">Project-2</a></li>
+      <li><a href="https://karthaiyal.github.io/Elite-Event-Planners/">Project-3</a></li>
+      <li><a href="https://karthaiyal.github.io/E-Commerce-Product/">Project-4</a></li>
+    </ul>
+    </div>
+  </section>
+
+
+
+  <section id="language-personality">
+    <div class="card">
+    <h3>Language:</h3>
+      <p>English</p>
+      <p>Tamil</p>
+  </div>
+  <div class="card">
+    <h3>Personality:</h3>
+      <p>Communicative</p>
+      <p>Punctuality</p>
+      <p>Creativity</p>
+      <p>Organized</p>
+  </div>
+  </section>
+  
+  <section id="certificates">
+    <h2>Certificates(Workshops)</h2>
+    <ul>
+        <li>Attended a two days National level workshop on <b>“Green Manufacturing Towards Sustainable 
+            development - 2012"</b> held on 24th & 25th Feb 2012 at The Kavery Engineering College, Salem.</li>
+        <li>Attended a state level workshop on <b>“Renewable Energy Resources - The Need of The Hour (Tnscst Worer - 2012)”
+        </b>held on 13th July 2012 at Institute of Road and Transport Technology, Erode.</li>
+        <li>Attended a two days National level workshop on <b>“Rapid Prototyping and Cooling” </b>held on 24th & 25th 
+            Jan 2013 at The Kavery Engineering College, Salem.</li>
+        <li>Attended a one day National level workshop on <b>“Blueprint Reading for Engineering & Manufacturing Technology”
+        </b>held on 3rd Apr 2014 at Erode Sengunthar Engineering College, Perunthurai.</li>
+    </ul>
+  </section>
+
+  <section id="faculty development programmes">
+    <h2>Faculty Development Programmes(FDP)</h2>
+    <ul>
+        <li>Attended a two days Faculty Development Programme on <b>“Heat & Mass Transfer”</b> held on 22th & 23th 
+            Nov 2013 at Erode Sengunthar Engineering College, Perunthurai.</li>
+        <li>Attended a two days Faculty Development Programme on <b>“Design of Machine Elements”</b> held on 16th & 17th
+            May 2014 at Erode Sengunthar Engineering College,
+            Perunthurai.</li>
+        <li>Attended a seven days Faculty Development Programme on <b>“Advances in Measurement Techniques”</b> held on 
+            30th Nov to 5th & 9th Dec 2016 at Government College of Engineering, Salem.</li>
+    </ul>   
+  </section>
+
+  <section id="conferences">
+    <h2>Conferences</h2>
+    <h3>International Conference</h3>
+    <ul>
+      <li>Presented a paper on <b>"Analysis on Mechanical Behaviour of Palm Tree Leaf Fiber Reinforced Composites"</b> in 
+        the<i> International conference on Futuristic Trends in Mechanical Engineeing organized by Thiruvalluvar College of 
+        Engineering and Technology,</i> held during 7th and 8th March 2015. </li>
+    </ul>
+
+    <h3>National Conference</h3>
+    <ul>
+      <li>Presented a paper on<b>"Build a small automobile using a four-stroke engine"</b> in 
+        the<i> National conference on Recent Trends in Mechanical Engineeing organized by Sona College of Technology,</i> 
+        held during 9th and 10th January 2015.</li>
+    </ul>
+  </section>
+
+
+  <div class="sidebar">
+    <section id="profile-photo">
+    <img src="karthik.jpg" alt="profile-photo" class="profile-photo">
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Teamwork</li>
+        <li>Time Management</li>
+        <li>Leadership</li>
+        <li>Effective Communication</li>
+        <li>Critical Thinking</li>
+      </ul>
+    </section>
+  </div>
+
+  <section id="contact">
+    <div class="card">
+    <h2>Contact Me</h2>
+    </div>
+    <div class="card">
+    <ul>
+      <li><a href="https://www.linkedin.com/in/karthikeyan-muthusamy-5484152b6" target="_blank" class="linkedin-link">
+        <img src="linkedin.jpg.png" alt="linkedin-logo" width="30px">
+     </a></li>
+     <li><a href="https://www.github.com/in/Karthaiyal" target="_blank" class="github-link">
+      <img src="github.png" alt="github-logo" width="30px">
+   </a></li>
+   <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" class="gmail-link">
+    <img src="gmail.jpg" alt="gmail-logo" width="30px">
+   </a></li>
+    </ul>
+    </div>
+  </section>
+
+  
+  
+
+  <footer>
+    <p>© 2025 Karthikeyan Muthusamy | All Rights Reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
